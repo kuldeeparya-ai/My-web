@@ -60,14 +60,33 @@ text-decoration:none;
 border-radius:30px;
 font-weight:bold;
 }
+  .card{
+max-width:700px;
+margin:auto;
+padding:20px;
+background:rgba(255,255,255,0.08);
+border-radius:20px;
+backdrop-filter:blur(10px);
+box-shadow:0 8px 25px rgba(0,0,0,0.3);
+  }
 </style>
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="container" id="home">
+<nav style="position:sticky;top:0;background:rgba(0,0,0,.5);padding:15px;text-align:center;">
 
+<a href="#home" style="color:white;margin:15px;text-decoration:none;">Home</a>
+
+<a href="#about" style="color:white;margin:15px;text-decoration:none;">About</a>
+
+<a href="#skills" style="color:white;margin:15px;text-decoration:none;">Skills</a>
+
+<a href="#contact" style="color:white;margin:15px;text-decoration:none;">Contact</a>
+
+</nav>
 <img src="https://raw.githubusercontent.com/kuldeeparya-ai/My-web/c33c94ae851c21f36cb307f71e0d6a00c3b27c2d/file_0000000002fc7208a4dab5d25a7b9317.png">
 
 <h1>Hi, I'm Kuldeep Arya 👋</h1>
@@ -83,7 +102,7 @@ font-weight:bold;
 </div>
 <section style="padding:40px 20px;background:white;color:#222;margin-top:50px;">
 
-<h2>👨 About Me</h2>
+<h2 id="about">👨 About Me</h2>
 
 <p>
 Hello! I'm <b>Kuldeep Arya</b>, a B.Tech CSE (AI) student.
@@ -93,7 +112,7 @@ My goal is to become a skilled Software Engineer.
 
 <br>
 
-<h2>💻 Skills</h2>
+<h2 id="skills">💻 Skills</h2>
 
 <div style="margin-top:15px;">
 
@@ -109,7 +128,7 @@ My goal is to become a skilled Software Engineer.
 
 <br><br>
 
-<h2>📬 Contact</h2>
+<h2 id="contact">📬 Contact</h2>
 
 <p>📧 singhkuldeep10521@gmail.com</p>
 
